@@ -58,8 +58,8 @@ public class Q5 {
 		}
 	}
 
-	//@AfterMethod
-	//public void tearDown() {
-		//driver.close();
-	//}
+	  @AfterMethod
+	 public void tearDown() {
+		driver.close();
+	}
 }
